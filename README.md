@@ -78,4 +78,18 @@ npm run dev
 ### Docker setup
 docker compose up --build
 
+```
+# Transaction Flow
+  User creates top-up request
+  Request stored as PENDING
+  Admin reviews request
+  If approved:
+  Wallet balance is updated
+  Transaction is recorded
+  If rejected:
+  Request marked as REJECTED
+  
+# Author
+Abdillah Suleiman
+
 
